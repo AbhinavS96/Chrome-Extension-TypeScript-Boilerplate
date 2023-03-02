@@ -1,0 +1,55 @@
+/*Reset*/
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: white;
+}
+
+.container {
+  min-width: 400px;
+  padding: 10px 10px 0 10px;
+  height: auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/*Header*/
+
+header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin: -10px;
+  margin-bottom: 0px;
+}
+
+.navbar-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-heading-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.main-heading-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#main-heading {
+  font-weight: bold;
+}

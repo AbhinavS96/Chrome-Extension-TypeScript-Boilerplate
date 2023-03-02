@@ -1,0 +1,14 @@
+{
+  "default_title": {
+    "message": "Chrome Extension TypeScript Boilerplate",
+    "description": "The title of the extension to be used in manifest.json"
+  },
+  "default_description": {
+    "message": "Get started with developing chrome extensions in TypeScript",
+    "description": "The description of the extension to be used in manifest.json"
+  },
+  "title_tag": {
+    "message": "Chrome Extension TypeScript Boilerplate",
+    "description": "The title of the extension to be used in index.html"
+  }
+}
